@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Note App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+        <main>
+            <h2>My Notes</h2>
+            <form action id="form">
+                <textarea placeholder="Add a note" name cols="40"
+                    rows="5" id="noteInput" value required></textarea>
+                <button type="submit" id="save">Save Note</button>
+            </form>
+
+            <div class="displayNotes" id="displayNotes">
+                <!-- <p>1. This is just a simple note.
+                    <i class="fa-solid fa-trash rightAlign" id="delete"></i>
+                </p>
+                <p class="date">May 08, 2023</p>
+                <hr>
+                <p>2. This is just a simple note . <i
+                        class="fa-solid fa-trash rightAlign"
+                        id="delete"></i></p><hr> -->
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
